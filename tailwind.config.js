@@ -12,6 +12,14 @@ module.exports = {
         foreground: "var(--foreground)",
       },
     },
+    screens: {
+      xs: "400px",
+      "3xl": "1680px",
+      "4xl": "2200px",
+    },
+    maxWidth: {
+      "10xl": "1512px",
+    },
   },
   plugins: [],
 };
