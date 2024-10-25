@@ -13,9 +13,12 @@ module.exports = {
       },
     },
     screens: {
-      xs: "400px",
-      "3xl": "1680px",
-      "4xl": "2200px",
+      xs: "400px", // Custom extra-small breakpoint
+      sm: "640px", // Small screens and up
+      md: "768px", // Medium screens and up
+      lg: "1024px", // Large screens and up
+      xl: "1280px", // Extra large screens and up
+      // "2xl": "1536px", // 2x large screens and up
     },
     maxWidth: {
       "10xl": "1512px",
